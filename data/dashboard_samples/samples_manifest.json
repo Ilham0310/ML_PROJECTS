@@ -1,0 +1,333 @@
+{
+  "long_hair": [
+    {
+      "name": "Female face sample 1",
+      "path": "data/dashboard_samples/long_hair_1_female.jpg",
+      "expected": {
+        "label": "Female",
+        "age_group": "outside"
+      },
+      "preview": "Expected: Female, route outside"
+    },
+    {
+      "name": "Female face sample 2",
+      "path": "data/dashboard_samples/long_hair_2_female.jpg",
+      "expected": {
+        "label": "Female",
+        "age_group": "outside"
+      },
+      "preview": "Expected: Female, route outside"
+    },
+    {
+      "name": "Male face sample 3",
+      "path": "data/dashboard_samples/long_hair_3_male.jpg",
+      "expected": {
+        "label": "Male",
+        "age_group": "outside"
+      },
+      "preview": "Expected: Male, route outside"
+    },
+    {
+      "name": "Male face sample 4",
+      "path": "data/dashboard_samples/long_hair_4_male.jpg",
+      "expected": {
+        "label": "Male",
+        "age_group": "outside"
+      },
+      "preview": "Expected: Male, route outside"
+    },
+    {
+      "name": "Male face sample 5",
+      "path": "data/dashboard_samples/long_hair_5_male.jpg",
+      "expected": {
+        "label": "Male",
+        "age_group": "target"
+      },
+      "preview": "Expected: Male, route target"
+    }
+  ],
+  "nationality": [
+    {
+      "name": "Face sample 1",
+      "path": "data/dashboard_samples/nationality_1.jpg",
+      "expected": {
+        "nationality": "Other",
+        "emotion": "happy"
+      },
+      "preview": "Expected: Other, happy"
+    },
+    {
+      "name": "Face sample 2",
+      "path": "data/dashboard_samples/nationality_2.jpg",
+      "expected": {
+        "nationality": "US/American",
+        "emotion": "neutral"
+      },
+      "preview": "Expected: US/American, neutral"
+    },
+    {
+      "name": "Face sample 3",
+      "path": "data/dashboard_samples/nationality_3.jpg",
+      "expected": {
+        "nationality": "African",
+        "emotion": "angry"
+      },
+      "preview": "Expected: African, angry"
+    },
+    {
+      "name": "Face sample 4",
+      "path": "data/dashboard_samples/nationality_4.jpg",
+      "expected": {
+        "nationality": "African",
+        "emotion": "neutral"
+      },
+      "preview": "Expected: African, neutral"
+    },
+    {
+      "name": "Face sample 5",
+      "path": "data/dashboard_samples/nationality_5.jpg",
+      "expected": {
+        "nationality": "African",
+        "emotion": "happy"
+      },
+      "preview": "Expected: African, happy"
+    }
+  ],
+  "senior": [
+    {
+      "name": "Senior People Original",
+      "path": "data/dashboard_samples/senior_people_original.jpg",
+      "expected": {
+        "person_count": 3,
+        "senior_count": 0
+      },
+      "preview": "Expected: 3 people, 0 seniors"
+    },
+    {
+      "name": "Senior People Flip",
+      "path": "data/dashboard_samples/senior_people_flip.jpg",
+      "expected": {
+        "person_count": 3,
+        "senior_count": 0
+      },
+      "preview": "Expected: 3 people, 0 seniors"
+    },
+    {
+      "name": "Senior People Bright",
+      "path": "data/dashboard_samples/senior_people_bright.jpg",
+      "expected": {
+        "person_count": 3,
+        "senior_count": 0
+      },
+      "preview": "Expected: 3 people, 0 seniors"
+    },
+    {
+      "name": "Senior People Contrast",
+      "path": "data/dashboard_samples/senior_people_contrast.jpg",
+      "expected": {
+        "person_count": 3,
+        "senior_count": 0
+      },
+      "preview": "Expected: 3 people, 0 seniors"
+    },
+    {
+      "name": "Senior People Dark",
+      "path": "data/dashboard_samples/senior_people_dark.jpg",
+      "expected": {
+        "person_count": 3,
+        "senior_count": 0
+      },
+      "preview": "Expected: 3 people, 0 seniors"
+    }
+  ],
+  "car": [
+    {
+      "name": "Orange sports classic car",
+      "path": "data/dashboard_samples/car_orange_sports_classic.jpg",
+      "expected": {
+        "car_count": 1,
+        "person_count": 0,
+        "car_colours": [
+          "orange"
+        ]
+      },
+      "preview": "Expected: 1 car(s), colours ['orange']",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Orange_sports_classic_car_(Unsplash).jpg",
+      "license": "CC0 1.0"
+    },
+    {
+      "name": "Old red Renault",
+      "path": "data/dashboard_samples/car_old_red_renault.jpg",
+      "expected": {
+        "car_count": 6,
+        "person_count": 10,
+        "car_colours": [
+          "orange",
+          "orange",
+          "orange",
+          "green",
+          "orange",
+          "orange"
+        ]
+      },
+      "preview": "Expected: 6 car(s), colours ['orange', 'orange', 'orange', 'green', 'orange', 'orange']",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Old_red_Renault_photo-1.JPG",
+      "license": "CC0 1.0"
+    },
+    {
+      "name": "Vintage racing cars",
+      "path": "data/dashboard_samples/car_vintage_racing.jpg",
+      "expected": {
+        "car_count": 2,
+        "person_count": 0,
+        "car_colours": [
+          "orange",
+          "orange"
+        ]
+      },
+      "preview": "Expected: 2 car(s), colours ['orange', 'orange']",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vintage_Racing_Cars_(261937287).jpeg",
+      "license": "CC0 1.0"
+    },
+    {
+      "name": "Red sports coupe",
+      "path": "data/dashboard_samples/car_red_sports_coupe.jpg",
+      "expected": {
+        "car_count": 1,
+        "person_count": 0,
+        "car_colours": [
+          "orange"
+        ]
+      },
+      "preview": "Expected: 1 car(s), colours ['orange']",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Red_sports_coupe_car.jpg",
+      "license": "Public domain"
+    },
+    {
+      "name": "Vintage car parked",
+      "path": "data/dashboard_samples/car_vintage_parked.jpg",
+      "expected": {
+        "car_count": 4,
+        "person_count": 0,
+        "car_colours": [
+          "orange",
+          "orange",
+          "green",
+          "orange"
+        ]
+      },
+      "preview": "Expected: 4 car(s), colours ['orange', 'orange', 'green', 'orange']",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vintage_car_parked._(Unsplash).jpg",
+      "license": "CC0 1.0"
+    }
+  ],
+  "sign": [
+    {
+      "name": "ASL letter T photo",
+      "path": "data/dashboard_samples/sign_asl_t_photo.jpg",
+      "expected": {
+        "label": "T"
+      },
+      "preview": "Expected: T",
+      "source": "Cropped from public ASL Alphabet example sheet",
+      "source_url": "https://github.com/mxagar/asl_alphabet_image_classification/blob/master/assets/asl_examples_labelled.jpg"
+    },
+    {
+      "name": "ASL letter F photo",
+      "path": "data/dashboard_samples/sign_asl_f_photo.jpg",
+      "expected": {
+        "label": "F"
+      },
+      "preview": "Expected: F",
+      "source": "Cropped from public ASL Alphabet example sheet",
+      "source_url": "https://github.com/mxagar/asl_alphabet_image_classification/blob/master/assets/asl_examples_labelled.jpg"
+    },
+    {
+      "name": "ASL letter S photo",
+      "path": "data/dashboard_samples/sign_asl_s_photo.jpg",
+      "expected": {
+        "label": "S"
+      },
+      "preview": "Expected: S",
+      "source": "Cropped from public ASL Alphabet example sheet",
+      "source_url": "https://github.com/mxagar/asl_alphabet_image_classification/blob/master/assets/asl_examples_labelled.jpg"
+    },
+    {
+      "name": "ASL letter P photo",
+      "path": "data/dashboard_samples/sign_asl_p_photo.jpg",
+      "expected": {
+        "label": "P"
+      },
+      "preview": "Expected: P",
+      "source": "Cropped from public ASL Alphabet example sheet",
+      "source_url": "https://github.com/mxagar/asl_alphabet_image_classification/blob/master/assets/asl_examples_labelled.jpg"
+    },
+    {
+      "name": "ASL letter O photo",
+      "path": "data/dashboard_samples/sign_asl_o_photo.jpg",
+      "expected": {
+        "label": "O"
+      },
+      "preview": "Expected: O",
+      "source": "Cropped from public ASL Alphabet example sheet",
+      "source_url": "https://github.com/mxagar/asl_alphabet_image_classification/blob/master/assets/asl_examples_labelled.jpg"
+    }
+  ],
+  "voice": [
+    {
+      "name": "David sample",
+      "path": "data/dashboard_samples/voice_david_1.wav",
+      "expected": {
+        "gender": "male",
+        "senior": false,
+        "emotion": null,
+        "message": "Estimated age: 21"
+      },
+      "preview": "Expected: Estimated age: 21"
+    },
+    {
+      "name": "Zira sample",
+      "path": "data/dashboard_samples/voice_zira_1.wav",
+      "expected": {
+        "gender": "female",
+        "senior": false,
+        "emotion": null,
+        "message": "Upload male voice"
+      },
+      "preview": "Expected: Upload male voice"
+    },
+    {
+      "name": "David sample",
+      "path": "data/dashboard_samples/voice_david_2.wav",
+      "expected": {
+        "gender": "male",
+        "senior": false,
+        "emotion": null,
+        "message": "Estimated age: 20"
+      },
+      "preview": "Expected: Estimated age: 20"
+    },
+    {
+      "name": "Zira sample",
+      "path": "data/dashboard_samples/voice_zira_2.wav",
+      "expected": {
+        "gender": "female",
+        "senior": false,
+        "emotion": null,
+        "message": "Upload male voice"
+      },
+      "preview": "Expected: Upload male voice"
+    },
+    {
+      "name": "David sample",
+      "path": "data/dashboard_samples/voice_david_3.wav",
+      "expected": {
+        "gender": "male",
+        "senior": false,
+        "emotion": null,
+        "message": "Estimated age: 20"
+      },
+      "preview": "Expected: Estimated age: 20"
+    }
+  ]
+}

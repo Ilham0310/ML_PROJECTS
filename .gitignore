@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Model weights (too large for git, train via Kaggle)
+models/*.keras
+models/*.h5
+models/*.pt
+models/*.json
+models/submission/
+*.zip
+*_models.zip
+
+# Dataset and generated runtime data
+/data/*
+!/data/dashboard_samples/
+!/data/dashboard_samples/**
+/data/UTKFace/
+/data/submission_dashboard_uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+
+# Hypothesis
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Kiro specs (development only)
+.kiro/
